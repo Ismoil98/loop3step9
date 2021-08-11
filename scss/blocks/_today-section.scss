@@ -1,0 +1,95 @@
+.today-wrapper {
+  background-image: linear-gradient(90deg,
+  rgba(0, 0, 0, 0.75)0%),
+  url("../../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 245px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding-top: 0;
+  color:#fff;
+}
+
+.today-section {
+  
+}
+
+.today {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.today__left {
+  margin-left: 50px;
+}
+
+.weather__list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.weather__items {
+  margin-right: 20px;
+}
+
+.weather__items--first {
+  height: 150px;
+  font-size: 36px;
+}
+
+.material-icons {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.weather-icons {
+  display: block;
+}
+
+.weather__img {
+
+}
+
+.weather__weather {
+
+}
+
+.weather__degree {
+
+}
+
+.today_right {
+
+}
+
+.today_date {
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(163, 162, 162);
+  text-align: right;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.today_time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 68px;
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.today_time-icon {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}

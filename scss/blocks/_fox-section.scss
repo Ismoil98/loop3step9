@@ -1,0 +1,144 @@
+.fox-section {
+
+}
+
+.fox {
+  width: 960px;
+  background-color: #fff;
+  padding-top: 20px;
+  display: flex;
+}
+
+.tv-block {
+  display: inline-block;
+  padding-top: 125px;
+  margin-left: 50px;
+  opacity: 0.7;
+}
+
+.tv-image {
+  width: 24px;
+  height: 24px;
+}
+
+.films {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  width: 837px;
+}
+
+.fox__list {
+  list-style-type: none;
+  display: flex;
+  padding-inline-start: 0;
+  align-items: flex-end;
+}
+
+.fox__items {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.fox__link--active {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.fox__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(139, 138, 138);
+  font-size: 16px;
+  transition: color 0.6s ease;
+}
+
+.fox__link:hover {
+  color: black;
+}
+
+.film__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+
+.film__items {
+  position: relative;
+}
+
+.film-image {
+  margin-bottom: 20px;
+}
+
+.film-image-active {
+  margin-bottom: 0px;
+}
+
+.film-time {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(139, 138, 138,0.8);
+  margin: 0;
+}
+
+.film-name {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+.play2 {
+  display: none;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  width: 24px;
+  height: 24px;
+  transition: display 0.9s ease;
+}
+
+.film__items:hover .play2 {
+  display: block;
+}
+
+.play4 {
+  display: none;
+  position: absolute;
+  left: 85px;
+  top: 40px;
+  width: 24px;
+  height: 24px;
+  transition: display 0.9s ease;
+}
+
+.film__items:hover .play4 {
+  display: block;
+}
+
+.line {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  height: 2px;
+  background-color: rgb(139, 139, 136);
+  position: relative;
+}
+
+.cursor {
+  width: 100px;
+  height: 6px;
+  background-color: #a4c3f2;
+  border-radius: 80px;
+  position: absolute;
+  left: 270px;
+  top: -2px;
+}
